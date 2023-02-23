@@ -1,0 +1,118 @@
+html body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url(/img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 20px;
+}
+
+.header img {
+  max-width: 150px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.menu li a img {
+  max-width: 30px;
+}
+
+.menu li a button {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.menu li a button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 150px;
+  height: 500px;
+  padding: 30px;
+}
+
+.ctaTitle {
+  margin-bottom: 50px;
+  width: 70%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ctaText {
+  margin-bottom: 100px;
+  width: 70%;
+  color: white;
+}
+
+.ctaText p {
+  font-size: 20px;
+}
+
+.ctaButton {
+  max-width: 25%;
+}
+
+.ctaButton button {
+  background-color: #31eeb3;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 16px;
+}
+
+.ctaButton button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.ctaButton button img {
+  max-width: 10px;
+}
